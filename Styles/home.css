@@ -1,0 +1,60 @@
+body {
+  margin: 0; }
+
+#wrapper {
+  background-image: url(http://digital-art-gallery.com/oid/18/3543x2035_4916_Earth_2d_sci_fi_concept_art_speed_painting_architecture_picture_image_digital_art.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.fixed {
+  position: fixed;
+  top: 0; }
+
+#main_feature {
+  display: inline-block;
+  box-sizing: border-box;
+  background-image: url(http://cdn2.business2community.com/wp-content/uploads/2015/10/hire-a-wordpress-designer-1024x768.jpg.jpg);
+  width: 100%;
+  margin: 0 auto;
+  background-size: 100% auto; }
+  #main_feature #overlay {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(90, 0, 20, 0.35); }
+  #main_feature #container {
+    width: 30%;
+    border: 10px solid #FFF;
+    padding: 15px;
+    margin: 50px auto;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: impact;
+    font-weight: bold;
+    text-align: center; }
+  #main_feature #button_bar {
+    width: 100%; }
+    #main_feature #button_bar #button {
+      background-image: url(http://www.chrisdrinkut.com/public/site/imgs/arrow-down.png);
+      background-size: 64px 64px;
+      width: 64px;
+      height: 64px;
+      margin: 0 auto;
+      margin-top: 64px;
+      margin-bottom: 0; }
+
+.top_bar {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1px;
+  padding: 1px 15px;
+  background-color: #60C;
+  color: white;
+  font-size: 1.15em;
+  font-weight: bold;
+  font-family: impact; }
+
+/*# sourceMappingURL=home.css.map */

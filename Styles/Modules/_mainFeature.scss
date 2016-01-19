@@ -1,0 +1,47 @@
+$base_margin: 15px;
+$base_color: #FFF;
+
+#main_feature {
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: url(http://cdn2.business2community.com/wp-content/uploads/2015/10/hire-a-wordpress-designer-1024x768.jpg.jpg);
+    width: 100%;
+    margin: 0 auto;
+    background-size: 100% auto;
+    
+    #overlay  {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(90, 0, 20, 0.35);
+    }
+    
+    #container {
+        width: 30%;
+        border: 10px solid $base_color;
+        padding: $base_margin;
+        margin: 50px auto;
+        
+        color: $base_color;
+        font-weight: bold;
+        font-size: 1.6em;
+        font-family: impact;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #button_bar {
+        width: 100%;
+        
+        #button {
+            background-image: url(http://www.chrisdrinkut.com/public/site/imgs/arrow-down.png);
+            background-size: 64px 64px;
+            width: 64px;
+            height: 64px;
+            margin: 0 auto;
+            margin-top: 64px;
+            margin-bottom: 0;
+        }
+    }
+}
